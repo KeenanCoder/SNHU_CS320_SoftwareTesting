@@ -1,2 +1,6 @@
 # SNHUJUnitTesting
 This Repo showcases CS 320 course I took at SNHU that covers testing techniques.
+
+My code is functional and secure because I incorporated a testing technique called unit testing. However, this alone is not enough to confirm that the program is functional and secure, so we try to see the coverage. Essentially see if the testing covers above a specific percentage (which here was 80%) using a tool called JaCoCo that goes well with maven and Java. It highlights all the code in the program and color coding it to which tests were covered and which need improvement. Once the classes have about 80% coverage or more, then we can safely confirm it is secure.
+
+First I go through what are the requirements from the user. Next I try to create cases for each requirement and even specify them into smaller cases that can be handled with more clarity and ease. Each case has a bigger priority than the other such as the adding and deleting data compared to duplicate data (this does not mean it is not important just not the main focus). After I develop the code in a generic way like a blueprint that can be updated and changed later. Once the architecture, structure and debugging works, I plan on how the user might perceive or behave when using the program. That is when QA can come and apply the testing techniques before committing.
